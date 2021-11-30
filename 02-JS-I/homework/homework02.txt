@@ -1,0 +1,17 @@
+Instrucciones
+________________________________________
+1.	En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes
+ conceptos como si se lo estuvieras explicando a un niño de 12 años.
+  Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+o	Variables son cajas donde se almacenan datos que luego puede ser recuperados y procesados.
+o	Strings: es un tipo de datos, son cadenas de texto, hilos de caracteres que forman un texto. 
+o	Funciones (argumentos, return) los argumentos es el medio a través da la cual una función se
+ comunica con su exterior, recibiendo los datos de las entradas. 
+ El return es el medio a través de la cual la función envía una respuesta al procedimiento que lo 
+ llam, cuando el flujo del programa llega a una instancia return dentro de una función devuelve 
+ el valor, dato , mensaje y el procedimiento dentro de la función se termina.  
+o	Declaraciones if: Es una estructura de control para tomar una decisión hacia qué lado seguirá
+ el flujo del procedimiento. Es una pregunta que de acuerdo a su respuesta, si es verdadera o falsa,
+  el flujo del procedimiento sigue una determinada acción.  
+o	Valores booleanos (true, false) Son valores booleanos que expresan verdad o falso, cuando se 
+utiliza un  operador de comparación , esta, comprueba si son iguales y devuelve un resultado booleano.
