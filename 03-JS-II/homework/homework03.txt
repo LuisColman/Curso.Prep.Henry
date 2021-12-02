@@ -1,0 +1,9 @@
+Homework: Javascript II
+Instrucciones
+________________________________________
+1.	En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+•	For: es una secuencia que define un ciclo a cumplir donde tiene un comienzo iniciando las variables, un segundo argumento donde define una expresión a evaluar, si esta es verdadera ejecuta el siguiente argumento donde incrementa o decremento la variable inicializada 
+•	&&, e un operador lógico, donde pregunta si los dos lados de las expresiones son verdaderos, comenzando con la izquierda y si no es verdadera, ya no pregunta por el de la derecha 
+•	 ||, es un operador lógico donde evalúa si una de las dos expresiones (izquierda o derecha) es verdadera, si la izquierda es verdadera ya no evalúa el de la derecha, porque basta con que una de ellas sea verdadera
+•	  ! es un operador que niega o cambia la función de un operador, anteponiendo al operador ==, al contrario de lo que hace este operador, que evalúa si son iguales con el operador !, lo que hace es negar que sean iguales, es decir que es verdadero si son distintos 
+2.	Desde la carpeta Prep en la carpeta donde clonaste el repo, ingresa el comando npm test JSII.test.js para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo homework.js.
