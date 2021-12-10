@@ -1,0 +1,11 @@
+1.	En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes 
+conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a
+ descubrir rápidamente cualquier agujero en tu comprensión.
+o	Arrays: son espacio de memoria donde se almacenan datos, estos espacios en javascript pueden 
+contener diferentes tipos de datos, para poder identificar a cada dato se le asigna un índice,
+ el primer índice de un array es el 0 “cero”, y así sucesivamente. La longitud de un array es la 
+ cantidad total de datos que contenga ej 10, pero la primera posición será el 0 y la última será el 9. 
+o	
+2.	Desde la carpeta Prep en la carpeta donde clonaste el repo, ingresa el comando npm test 
+JSIII.test.js para correr los tests automatizados. Al principio, todos los tests estarán 
+fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo homework.js.
