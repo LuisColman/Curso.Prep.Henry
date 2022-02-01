@@ -1,0 +1,17 @@
+homework JSIV.test
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años.
+ Hacer esto te ayudará a descubrir rápidamente cualquier
+  agujero en tu comprensión.
+
+Objetos: Contiene mucha información relacionados con una cosa. un objeto es una colección 
+de propiedades y un a propiedad es una asociación de clave y valor. cuando el valor de una propiedad es una
+función. esto se denomina método
+Propiedades. es la asociación de calve y valor que forma parte del conjunto de una cosa. el objeto
+Métodos: cuando la propiedad clave valor, el valor es una función, esta se convierte en método de del objeto
+
+Bucle for…in: es la forma de recorres todas las propiedades del objeto, devolviendo la clave o la clave y el valor de cada clave
+Notación de puntos vs notación de corchetes: se puede utilizar indistintamente cuando se utiliza el punto debe ir, primeramente
+el nombre del objeto, seguid por el punto y luego la propiedad, se utiliza para acceder al contenido de las
+propiedades. El corchete generalmente se utiliza  con variables 

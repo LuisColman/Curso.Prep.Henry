@@ -11,19 +11,19 @@ const nuevoNum = 69;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-//const nuevaResta = 10 - null === 5; 
-const nuevaResta = true ; 
+const nuevaResta = 10 - 5 === 5; 
+//const nuevaResta = true ; 
 
 // Resuelve el siguiente problema matemático:
-//const nuevaMultiplicacion = 10 * null === 40 ;
-const nuevaMultiplicacion = true;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
+//const nuevaMultiplicacion = true;
 
 // Resuelve el siguiente problema matemático:
-//const nuevoModulo = 21 % 5 === null;
-const nuevoModulo = true ;
+const nuevoModulo = 21 % 5 === 1;
+//const nuevoModulo = true ;
 
 
-// En los próximos 22 problemas, deberás completar la función.
+// En los próximos 22 problemas, deeberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
 // Asegúrate que usas "return" cuando la consola te lo pida.
 // Pista: "console.log()" NO fucionará.
@@ -40,29 +40,33 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var misuma= x + y ;
-  return misuma;
+  //var misuma= x + y ;
+  //return misuma;
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
- var miresta= x - y ;
- return miresta; 
+// var miresta= x - y ;
+ //return miresta; 
+ return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var mimult= x * y;
-  return mimult;
+  //var mimult= x * y;
+  //return mimult;
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
- var midiv= x / y ;
-  return midiv;
+  // var midiv= x / y ;
+  // return midiv;
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -73,8 +77,10 @@ function sonIguales(x, y) {
     return true;
 }else{
   return false;
-}
 
+ }
+//otra forma es 
+// return x === y;
 
 }
 
@@ -88,7 +94,8 @@ function tienenMismaLongitud(str1, str2) {
        }else{
       return false;
     }
-  
+  //otra forma es 
+// return srt1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -100,7 +107,8 @@ function menosQueNoventa(num) {
      }else{
     return false;
   }
-
+//otra forma es 
+// return num < 90 ;
  
 }
 
@@ -113,22 +121,24 @@ function mayorQueCincuenta(num) {
      }else{
     return false;
   }
-
+//otra forma es 
+// return num > 50;
 }
 
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var miresto= x % y;
-  return miresto;
+  //var miresto= x % y;
+  //return miresto;
+  return x % y;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 == 0){
+  if (num % 2 === 0){
     return true;
   }else{
     return false;
@@ -140,10 +150,10 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 == 0){
-    return false;
-  }else{
+  if (num % 2 === 1){
     return true;
+  }else{
+    return false;
   }
   
 }
@@ -230,6 +240,10 @@ function obtenerSaludo(nombre) {
   // Tu código:
   obtSaludo= "Hola " + nombre + "!";
   return obtSaludo;
+  // otra forma
+  // return  `Hola ${nombre} !`
+
+  
   
 }
 

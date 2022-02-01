@@ -28,7 +28,7 @@ function mayoriaDeEdad(edad) {
     var mayorN= "Not allowed";
     return mayorN;
   }
-}
+} 
   
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
@@ -213,6 +213,7 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+  /*
   var cont=0;
   if (numero === 0 || numero === 1 || numero === 2){
       var es_no_EsPrimo= false ;
@@ -236,8 +237,17 @@ function esPrimo(numero) {
          //console.log (es_no_EsPrimo);
          return es_no_EsPrimo;
   }
-}
 
+*/
+  if (numero < 2){ return false;} 
+  if (numero == 2){return true;}
+  for (i=2;i<numero; i++){
+    if (numero % i ===0){
+      return false;
+    }
+      return true;
+  }
+}
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
